@@ -1,83 +1,61 @@
-body {
-	font-family: 'Barlow Condensed', sans-serif;
-	background: red;
-	margin: 0;
-	color: white;
-	border: 2px solid white;
-}
+<html>
 
-a {
-	text-decoration: none;
-	color: red;
-	font-size: 1.8em;
-	font-weight: 700;
-	border: 2px solid green;
-}
+<head>
+  <title>CSS Grid Practice</title>
 
-header {
-	background: #FFFFFF;
-	padding: 1em;
-	border: 2px solid black;
-}
-nav {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 60px 0;
-}
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+  <!-- google font ==> font-family: 'Barlow Condensed', sans-serif; -->
+  <meta name="viewport" content=width=device-width, initial-scale=1.0 " />
+<link media="all " type="text/css " rel="stylesheet " href="index.css ">
+</head>
 
-nav ul {
-/*  text-align: center; */
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
-}
-
-nav ul li {
-  /*display: inline-block;*/
-}
-
-nav ul li a {
-  padding: 18px;
-  font-family: 'Barlow Condensed', sans-serif;
-  text-transform:uppercase;
-  color: rgba(0, 35, 122, 0.5);
-  font-size: 18px;
-  text-decoration: none;
-  display: block;
-}
-
-nav ul li a:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
-  background: rgba(255, 255, 255, 0.1);
-  color: rgba(0, 35, 122, 0.7);
-}
-
-.container {
-	display: grid;
-	grid-template-columns: 66%;
-	padding: 4em 1em;
-	border: 2px solid white;
-	justify-self: center;
-}
-
-footer {
-	background: #131313;
-	border: 2px solid gold;
-}
-
-.wrapper {
-	display: grid;
-	grid-template-columns: 100px 100px 100px;
-	grid-gap: 10px;
-}
-
-ul {
-	/*center's the text
-	display: grid;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	grid-template-columns: repeat(3, auto);
-	grid-template-rows: repeat(2, auto);*/
-}
+<body>
 
 
+
+<header>
+	<a href="# ">Main Page Title</a>
+	<nav>
+	  <ul>
+		<li>
+		  <a href="# ">Home</a>
+		</li>
+		<li>
+		  <a href="# ">About</a>
+		</li>
+		<li>
+		  <a href="# ">Musicians</a>
+		</li>
+		<li>
+		  <a href="# ">Authors</a>
+		</li>
+		<li>
+		  <a href="# ">Social Media</a>
+		</li>
+	  </ul>
+	</nav>
+</header>
+
+<div class="container">
+	<div class="content">
+		<h1>This is the main header</h1>
+		<p>This would be a really really long paragraph about something that was important about any topic</p>
+	</div>
+</div>
+
+<footer>
+  <div class="wrapper">
+    <div class="boxa">Title A</div>
+    <div class="boxb">Title B</div>
+    <div class="boxc">Title C</div>
+    <div class="boxd">A blurb about title A</div>
+    <div class="boxe">A blurb about title B</div>
+    <div class="boxf">A blurb about title C</div>
+  </div>
+</footer>
+
+
+
+  </body>
+
+</html>
